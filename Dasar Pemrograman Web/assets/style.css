@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins','Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.flex-container-row {
+    display: flex;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 0;
+    color: #f00000;
+}
+
+h2 {
+    color: #f00000;
+    font-size: 48px;
+}
+
+h3 {
+    color: #f00000;
+    font-size: 24px;
+}
+
+h4{
+    margin:0;
+    padding:0;
+}
+
+.profile{
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    color: #f00000;
+    background-color: #000000;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #f4f4f4;
+ }
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+.card {
+    box-shadow: 2px 2px 4px 0px #000000;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.register{
+    background-color: #f00000;
+    border-radius: 10%;
+    padding: 1%;
+    color: #f4f4f4;
+    font-weight: 600;
+}
+
+.register-now{
+    background-color: #f00000;
+    border-radius: 10%;
+    padding: 5%;
+    color: #f4f4f4;
+    font-weight: 600;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 2%;
+    background-color: #000000;
+    padding-bottom: 15%;
+    color: #cf7500;
+}
+
+.left-jumbotron {
+    text-align: center;
+    flex-basis: 50%;
+}
+
+.right-jumbotron {
+    text-align: left;
+    flex-basis: 50%;    
+}
+
+.left-about {
+    text-align: left;
+    flex-basis: 40%;
+    padding-left: 5%;
+    padding-top: 8%;
+}
+
+.right-about {
+    text-align: justify;
+    flex-basis: 60%;
+    padding-top: 0%;
+    padding-right: 5%;
+}
+
+.feature {
+    flex-basis: 100%;
+}
+
+.feature-content {
+    flex-basis: 33%;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}
+
+.register-content {
+    flex-basis: 100%;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 5%;
+}
+
+.navigation-bar {
+    text-align:right;
+    flex-basis: 100%;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    display: inline;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 75%;
+    color : #000000;
+    font-weight: 600;
+    text-align: justify;
+}
+
+ul {
+    margin-right: 5%;
+}
+
+li {
+    margin: 5%;
+}
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.logo-app {
+    width: 50%;
+}
+
+.feature{
+    padding-bottom: 4%;
+}
+
+.logo-feature {
+    width: 100%;
+    margin-top: 15%;
+}
+
+.logo-register {
+    width: 25%;
+}
+
+.logo-app-content {
+    width: 60%;
+}
+
+.title-content {
+    text-align: center;
+    flex-basis: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+.foto-profil {
+    border-radius: 10%;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    color:  #cf7500;
+    font-weight: 600;
+    text-align: center;
+}
+
+figcaption {
+    font-weight: 600;
+}
+ /* Dropdown Button */
+ .dropbtn {
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #000000;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align : left;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;} 

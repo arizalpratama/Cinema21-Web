@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cinema 21</title>
+        <link rel="stylesheet" href="assets/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <header class="jumbotron flex-container-column" id="home">
+            <div class="flex-container-row">
+                <nav class="navigation-bar">
+                    <ul>
+                        <li><a href="#about">Tentang</a></li>
+                        <li><a href="#feature">Fasilitas</a></li>
+                        <li> <div class="dropdown">
+                            <a onmouseover="myFunction()" class="dropbtn">Genre Movie</a>
+                            <div id="myDropdown" class="dropdown-content">
+                              <a href="#">Advanture</a>
+                              <a href="#">Romantic</a>
+                              <a href="#">Horror</a>
+                              <a href="#">Sci-fi</a>
+                              <a href="#">Comedy</a>
+                            </div>
+                          </div> 
+                        </li>
+                        <li class="register"><a href="#register">Daftar</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex-container-row">
+                <div class="left-jumbotron">
+                    <img class="logo-app" src="assets/image/logo.png">
+                </div>
+                <div class="right-jumbotron">
+                    <h1>Cinema 21</h1>
+                    <h3>Chill and Watch Movie!</h3>
+                </div>
+            </div>
+            
+         </header>
+
+        <main>
+                <div id="content" class="flex-container-column">
+                    <article id="about" class="card">
+                        <div class="flex-container-row">
+                            <div class="left-about">
+                                <img class="logo-app-content" src="assets/image/logo.png">
+                            </div>
+                            <div class="right-about">
+                                <h2 class="title-content">Apa itu Cinema 21?</h2>
+                                <p>Cinema 21 adalah adalah bioskop yang menyediakan film-film terbaru di seluruh wilayah Indonesia. 
+                                    Cinema 21 memiliki cabang dan tempat diseluruh wilayah Indonesia.
+                                    Cinema 21 memiliki fasilitas yang lengkap dan nyaman, bagi para penikmat film akan sangat nyaman nonton di disini.
+                                </p>
+                            </div>
+                    </article>
+                    <article id="feature" class="card">
+                        <div class="flex-container-row">
+                            <div class="feature">
+                                <h2 class="title-content">Fasilitas</h2>
+                                <div class="flex-container-row">
+                                    <div class="feature-content">
+                                        <img class="logo-feature" src="assets/image/kursi.jpg">
+                                        <p>Kursi nyaman dan luas</p>
+                                    </div>
+                                    <div class="feature-content">
+                                        <img class="logo-feature" src="assets/image/suara.png">
+                                        <br><br><br><br>
+                                        <p>Fasilitas suara berkualitas</p>
+                                    </div>
+                                    <div class="feature-content">
+                                        <img class="logo-feature" src="assets/image/film.png">
+                                        <p>Film terbaru</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </article>
+                </div>
+        
+                <aside class="profile">
+                    <article class="card">
+                        <header>
+                            <h3>Biodata</h3>
+                            <figure>
+                                <img class="foto-profil" src="assets/image/profile.jpg">
+                            </figure>
+                        </header>
+                        <section>
+                            <h3>Arizal Pratama Tanu Andara</h3>
+                            <h4>TTL: 08 MEI 1998</h4>
+                        </section>
+                    </article>
+                    <article class="card" id="register">
+                        <header>
+                            <h3>Daftar</h3>
+                            <figure>
+                                <img class="logo-register" src="assets/image/member.png">
+                            </figure>
+                        </header>
+                        <section>
+                            <div class="register-content">
+                                <a class="register-now" href="#">Daftar Sekarang!</a>
+                            </div>
+                        </section>
+                    </article>
+                </aside>
+            </main>
+
+        <footer>
+            <p>Submission Belajar Dasar Pemrograman Web Dicoding Academy</p>
+            <p>&#169; September 2020</p>
+        </footer>
+        <script src="assets/dropdown.js"></script>
+    </body>
+ 
+</html>
